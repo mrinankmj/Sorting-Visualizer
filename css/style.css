@@ -3,13 +3,12 @@
   --secondary-color: #ebebeb;
 }
 * {
-  /* Below is the standard CSS code one should add to get rid of default margins and padding which most of tge HTML elements have */
-  margin: 0;
+  
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   user-select: none;
-  background-color: aliceblue;
+  background-color: black;
 }
 body {
   position: relative;
@@ -25,13 +24,13 @@ body {
 .title {
   background-color: var(--primary-color);
   text-align: center;
-  font-size: 2em;
-  padding-block: 0.5em;
+  font-size: 1.5em;
+  padding-block: 0.2em;
   color: #fff;
   cursor: pointer;
 }
 
-/* Navbar CSS */
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -41,7 +40,7 @@ body {
   font-size: 16px;
   min-height: 70px;
   padding-block: 0.6em;
-  background-color: var(--secondary-color);
+  background-color: black;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 .navbar a {
@@ -56,7 +55,8 @@ body {
   background-color: #000000;
 }
 .navbar a:hover {
-  background-color: transparent;
+  background-color: yellow;
+  color: black;
 }
 .navbar #menu {
   width: fit-content;
@@ -76,10 +76,10 @@ body {
   cursor: pointer;
 }
 
-/* Center css */
+
 .center {
   margin: 0 auto;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; /* Added shadow to make page border free */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; 
   height: 420px;
   width: 410px;
   max-height: 731px;
