@@ -62,6 +62,7 @@ This project is a web-based Sorting Algorithm Visualizer that helps users visual
 ├── favicon.ico           # Icon for the webpage
 └── README.md             # Project documentation
 ```
+![image](https://github.com/user-attachments/assets/562d6962-f28f-4384-b652-8a926435b775)
 
 
 
